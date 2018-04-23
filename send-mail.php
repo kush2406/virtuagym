@@ -1,10 +1,12 @@
 <?php 
+
+$fromEmail = "plans@virtuagym.com";
+
 $to_email = trim($_POST['to']);
 if($to_email == "")
     die("User Email not specified");
 $subject = 'Your Workout Plan';
 $message = $_POST['content'];
-$fromEmail = "plans@virtuagym.com";
 $headers = "From: $fromEmail \r\n";
 $headers .= "Reply-To: plan-workout@virtuagym.com\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
