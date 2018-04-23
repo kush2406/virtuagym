@@ -1,0 +1,62 @@
+/*background color to the header, same as that of virguagym*/
+.bg-header{
+    background-color: #FF9A00 !important;
+}
+
+/*css for loader spinner that may appear at times at different places, just by adding this class to a div*/
+.loader{
+    background-image: url('../images/loading.gif');
+    background-size: cover;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+
+/*css for plans listing item*/
+.plan-item{
+    background: #f8f9fa;
+}
+
+.zoom {
+    /*padding: 50px;*/
+    /*background-color: green;*/
+    transition: transform .3s; /* Animation */
+    background: #f8f9fa;
+    z-index: 999999;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.plan-header{
+    background-color: rgba(255,154,0, 0.2); 
+    height:45px;
+    border-bottom:solid 1px #C5C5C5;
+    display:flex;
+    align-items:center;
+    padding: 0px 10px 0px 10px;
+}
+
+.plan-day-item,.exercise-list{
+    padding: 0px 10px 0px 10px;
+    min-height:50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: solid 1px #C5C5C5;
+}
+
+.selected{
+    background-color:#fff3cd;
+}
+
+#add-more{
+    cursor: pointer;
+}
+
+.exercise-list{
+    
+}
+
